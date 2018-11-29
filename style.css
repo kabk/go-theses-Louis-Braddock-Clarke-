@@ -1,0 +1,458 @@
+body {
+  font-family: serif; 
+  color: #000000;
+  margin: 0px;
+  letter-spacing: 0px;
+  background-color: #ffffff;
+/*  background-image: url("assets/1.png");*/
+  font-size: 18px;
+  background-size: cover;
+}
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+#mybox {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 5%;
+
+/*  top: 50%;
+  left: 50%;*/
+
+/*  border-color: #C0C0C0;
+  border-width:3px;  
+  border-style:ridge;
+  box-shadow: 20px 20px 50px #888888;
+  background-color: none;*/
+  }
+
+#mybox:hover{
+  animation: shake 0.32s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+#dropdown{
+/*  display: none;*/
+visibility: hidden;
+font-size: 20pt;
+padding-top: 150pt;
+
+}
+
+#titledrop{
+/*  display: none;*/
+visibility: hidden;
+font-size: 50pt;
+top: -200pt;
+
+}
+
+
+#mybox:hover #dropdown{
+/*  display: inline;*/
+  visibility: visible;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+
+  
+}
+
+#mybox:hover #titledrop{
+/*  display: inline;*/
+  visibility: visible;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+  
+}
+
+/*#mybox:hover #dropdown{
+  display: block;
+  color: #000000;
+  
+}*/
+
+
+  #mybox2 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+  top: 250pt;
+  left: 15%;
+  z-index: 1;
+}
+
+#mybox2:hover{
+  animation: shake 0.32s cubic-bezier(.36,.07,.19,.97) both;
+  animation-iteration-count: infinite;
+}
+
+#dropdown2{
+  /*display: none;*/
+  visibility: hidden;
+  font-size: 50pt;
+  z-index: 99;
+}
+
+#imagedrop{
+  visibility: hidden;
+  font-size: 50pt;
+  top: -200pt;
+  z-index: 99;
+
+}
+
+#mybox2:hover #dropdown2{
+  /*display: inline;*/
+  visibility: visible;
+  
+}
+
+#mybox2:hover #imagedrop{
+/*  display: inline;*/
+  visibility: visible;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+  
+}
+
+  #mybox3 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 25%;
+}
+
+#mybox3:hover{
+  animation: shake 0.32s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+#dropdown3{
+  display: none;
+  font-size: 20pt;
+  padding-top: 150pt;
+
+}
+
+#titledrop2{
+/*  display: none;*/
+visibility: hidden;
+font-size: 50pt;
+top: -200pt;
+
+}
+
+#mybox3:hover #dropdown3{
+  display: inline;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+  
+}
+
+#mybox3:hover #titledrop2{
+/*  display: inline;*/
+  visibility: visible;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+  
+}
+
+  #mybox4 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 35%;
+  z-index: 1;
+}
+
+#mybox4:hover{
+  animation: shake 0.32s cubic-bezier(.36,.07,.19,.97) both;
+  animation-iteration-count: infinite;
+}
+
+#dropdown4{
+  display: none;
+  padding-top: 150pt;
+  z-index: 98;
+
+}
+
+#imagedrop2{
+  visibility: hidden;
+  font-size: 50pt;
+  top: -200pt;
+  z-index: 99;
+
+}
+
+#mybox4:hover #dropdown4{
+  display: block;
+}
+
+#mybox4:hover #imagedrop2{
+/*  display: inline;*/
+  visibility: visible;
+  position: absolute;
+  color: #000000;
+  font-family: sans-serif;
+  
+}
+
+  #mybox5 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 45%;
+}
+
+  #mybox6 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 55%;
+}
+
+  #mybox7 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 65%;
+}
+
+  #mybox8 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 75%;
+}
+
+  #mybox9 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 85%;
+}
+
+  #mybox10 {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 150pt;
+  width: 50pt;
+
+  top: 250pt;
+  left: 95%;
+}
+
+
+.intro {
+  position: absolute;
+  left: 50px;
+  top: 520px;
+  font-size: 50pt;
+  font-family: "Garalda";
+  src: url('GaraldaDb.ttf') format('truetype');
+  color: #ffffff;
+}
+
+.text1 {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  font-size: 21pt;
+  text-decoration: underline;
+  color: #ffffff;
+
+}
+
+
+.text2 {
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  font-size: 21pt;
+  text-decoration: underline;
+  color: #ffffff;
+
+}
+
+
+.main {
+  position: relative;
+  border: 0px solid red;
+}
+
+#navinputs {
+    position: absolute;
+    height: 50px;
+    width: 230px;
+    background-color: #003366;
+    left: 50px;
+    top: 50px;
+    border-color: #A9A9A9;
+    border-width: 5px;  
+    border-style:ridge;
+    box-shadow: 40px 40px 30px #888888;
+    transform: perspective( 120px ) rotateY( 5deg ) rotateX( 0deg );
+    /*float: left; */ 
+}
+
+#navinputs li {
+  padding-left: 0px;
+  font-size: 180%;
+
+}
+
+#navinputs a {
+  color: #ffffff;
+
+}
+
+@font-face{
+
+  font-family: "voio_regular";
+  src: url('voio_regular.otf') format('opentype');
+} 
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1px, 0, 0);
+  }
+}
+
+/*#antenna-image {
+  position: fixed;
+  background-image: url("assets2/Photo.png");
+  height: 600px;
+  width: 600px;
+  top: 250px;
+  left: 1150px;
+  border-color: #C0C0C0;
+  border-width:3px;  
+  border-style:ridge;
+  box-shadow: 20px 20px 50px #888888;
+  background-color: none;
+  animation-name: photo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+    
+}*/
+
+
+/*
+#my-image {
+  position: absolute;
+  background-image: url("assets/Compass2.gif");
+  height: 90px;
+  width: 120px;
+  top: 50px;
+  left: 400px;
+  border-color: #C0C0C0;
+  border-width:3px;  
+  border-style:ridge;
+  box-shadow: 20px 20px 50px #888888;
+  background-color: none;
+    
+}*/
+
+/*#my-image2 {
+  position: absolute;
+  background-image: url("assets/tower.gif");
+  height: 90px;
+  width: 120px;
+  top: 40px;
+  left: 600px;
+  border-color: #C0C0C0;
+  border-width:3px;  
+  border-style:ridge;
+  box-shadow: 20px 20px 50px #888888;
+  background-color: none;
+    
+}*/
+
+/*#my-image3 {
+  position: absolute;
+  background-image: url("assets/radiowave.gif");
+  height: 125px;
+  width: 120px;
+  top: 20px;
+  left: 800px;
+  border-color: #C0C0C0;
+  border-width:3px;  
+  border-style:ridge;
+  box-shadow: 20px 20px 50px #888888;
+  background-color: none;
+    
+}*/
+
+
+
+
+
+
+/*#myVideo3 {
+  width: 25%;
+  height: auto;
+  top: 750px;
+  left: 30px;
+  position: absolute;
+
+
+    
+}*/
+
+#myVideo4 {
+  /*width: 1000px;*/
+  width: 25%;
+  height: auto;
+  top: 1350px;
+  left: 30px;
+  position: absolute;
+
+
+    
+
